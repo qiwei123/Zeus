@@ -26,5 +26,10 @@
       "C:\\Users\\Leyan\\.cargo",
       "C:\\Users\\Leyan\\.cargo\\registry\\cache\\*"
     ]
+  },
+  "env": {
+    "ANTHROPIC_BASE_URL": "https://ai-models.infra.leyantech.com",
+    "ANTHROPIC_AUTH_TOKEN": "sk-7INFGSLRvh1lW3Ym8nIhvaSdMeAFv9KJcKa43VrpydnGKNQ8",
+    "ANTHROPIC_MODEL": "deepseek-v4-flash"
   }
 }

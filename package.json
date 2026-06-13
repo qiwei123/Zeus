@@ -1,0 +1,39 @@
+{
+  "name": "windows-rpa-robot",
+  "version": "1.0.0",
+  "description": "Windows 混合 RPA 机器人工具 - 基于 Electron + TypeScript + React",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm-run-all --parallel dev:*",
+    "dev:electron": "cd apps/electron && npm run dev",
+    "dev:renderer": "cd apps/renderer && npm run dev",
+    "build": "npm-run-all --parallel build:electron build:renderer",
+    "build:electron": "cd apps/electron && npm run build",
+    "build:renderer": "cd apps/renderer && npm run build",
+    "dist": "cd apps/electron && npm run dist",
+    "clean": "rimraf node_modules apps/*/node_modules apps/*/dist apps/*/out"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "rpa",
+    "automation",
+    "electron",
+    "playwright",
+    "windows",
+    "uia"
+  ],
+  "author": "RPA Team",
+  "license": "MIT"
+}
