@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm add *)",
+      "Bash(pnpm tauri *)",
+      "Bash(pnpm run *)",
+      "Bash(netstat -ano)",
+      "Bash(taskkill //F //PID 27436)",
+      "Bash(where pnpm *)",
+      "Bash(where node *)",
+      "Bash(npm config *)",
+      "Bash(ls -la ~/.cargo/ 2>/dev/null || echo \"Cargo config directory not found\")",
+      "Read(//c/Users/Leyan/.cargo/**)",
+      "Bash(cat ~/.cargo/config.toml 2>/dev/null || echo \"No Cargo config file\")",
+      "Bash(rustc --version)",
+      "Bash(cargo --version)",
+      "Bash(rmdir /s /q src-tauri\\\\target)",
+      "Bash(del /q src-tauri\\\\Cargo.lock)",
+      "Bash(rm -rf ~/.cargo/registry/cache/toml_datetime* ~/.cargo/registry/src/*/toml_datetime*)",
+      "Bash(cargo clean *)",
+      "Bash(rm -rf ~/.cargo/registry/cache/*/toml_datetime* ~/.cargo/registry/src/*/toml_datetime* 2>/dev/null; rm -f src-tauri/Cargo.lock 2>/dev/null; echo \"Cleaned\")",
+      "WebFetch(domain:gist.githubusercontent.com)",
+      "Bash(rustup update *)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\Leyan\\.cargo",
+      "C:\\Users\\Leyan\\.cargo\\registry\\cache\\*"
+    ]
+  }
+}

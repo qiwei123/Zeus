@@ -1,8 +1,8 @@
-# 有言RPA - Tauri + React + Node.js 重构说明文档
+# 糖豆RPA - Tauri + React + Node.js 重构说明文档
 
 ## 项目概述
 
-**原项目**: Flutter 桌面应用 (有言RPA v1.0.4)  
+**原项目**: Flutter 桌面应用 (糖豆RPA v1.0.4)  
 **目标架构**: Tauri (Rust后端) + React (前端) + Node.js (辅助服务)  
 **项目类型**: RPA (机器人流程自动化) 客户端应用
 
@@ -919,7 +919,7 @@ impl ScreenRecorder {
         "icons/icon.ico"
       ],
       "identifier": "com.leyantech.youyanrpa",
-      "longDescription": "有言RPA - 机器人流程自动化客户端",
+      "longDescription": "糖豆RPA - 机器人流程自动化客户端",
       "macOS": {
         "entitlements": null,
         "exceptionDomain": "",
@@ -928,7 +928,7 @@ impl ScreenRecorder {
         "signingIdentity": null
       },
       "resources": [],
-      "shortDescription": "有言RPA客户端",
+      "shortDescription": "糖豆RPA客户端",
       "targets": "all",
       "windows": {
         "certificateThumbprint": null,
@@ -955,7 +955,7 @@ impl ScreenRecorder {
         "fullscreen": false,
         "height": 800,
         "resizable": true,
-        "title": "有言RPA",
+        "title": "糖豆RPA",
         "width": 1340,
         "minWidth": 1000,
         "minHeight": 600,
